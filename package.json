@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://connorp21.github.io/connorp21.github.io.git",
+  "homepage": "https://connorp21.github.io/connor-portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
