@@ -1,12 +1,14 @@
+import React from "react";
 import './App.css'
-import Footer from './footer'
-import Header from './Header'
-import MainContent from './mainContent'
+import Footer from './components/footer'
+import Header from './components/header'
+import MainContent from './components/mainContent'
+
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 export default function App() {
   return (
     <div className="app">
-      <Header></Header>
       <MainContent></MainContent>
       <Footer></Footer>
     </div>

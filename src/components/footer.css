@@ -1,0 +1,26 @@
+footer {
+    display: flex;
+    margin: 0 0;
+    padding: 3px 5px;
+    overflow: hidden;
+    width: 100vw;
+    background-color: var(--color-border);
+    color: var(--color-text);
+}
+
+.scroller {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 10px;
+}
+
+.scroller span {
+    display: flex;
+    justify-self: left;
+}
+
+.scroller toggle {
+    display: flex;
+    justify-self: right;
+}

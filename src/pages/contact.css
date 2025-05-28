@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    color: var(--color-text);
+}
+
+.contact-card {
+    display: flex;
+    justify-content: center;
+}
